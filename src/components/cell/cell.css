@@ -1,0 +1,19 @@
+.cell{
+    width: 69px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    user-select: none;
+}
+.cell:last-child {
+    border-bottom: none;
+}
+.fruit {
+    background: rebeccapurple;
+}
+.snake {
+    background: green;
+}
